@@ -1,95 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>DSNY Jade Association</title>
-<style>
-body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-header, section, footer { padding: 20px; }
-header { background: #003366; color: white; }
-.buttons a { margin-right: 10px; padding: 10px 15px; background: #0066cc; color: white; text-decoration: none; }
-.gallery img { width: 100px; margin: 5px; }
-.contact-form input, .contact-form textarea { width: 100%; padding: 8px; margin-top: 5px; }
-.contact-form label { display: block; margin-top: 10px; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSNY Jade Society - Promoting Cultural Heritage & Community Service</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>DSNY Jade Society</h1>
+                    <span class="tagline">Cultural Heritage & Community Service</span>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#membership" class="nav-link">Membership</a></li>
+                        <li><a href="#news" class="nav-link">News</a></li>
+                        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                    <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-<header>
-<h1>UPCOMING EVENTS</h1>
-<h3>Monday, June 9th @ 6 AM: 30th Annual Golf Outing</h3>
-</header>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Welcome to the DSNY Jade Society</h2>
+                <p class="hero-subtitle">Promoting cultural heritage and community service within the Department of Sanitation</p>
+                
+                <div class="announcements">
+                    <h3>Upcoming Events</h3>
+                    <div class="event-cards">
+                        <div class="event-card">
+                            <h4>Annual Cultural Heritage Celebration</h4>
+                            <p class="event-date">Saturday, September 14th @ 6 PM</p>
+                            <p>Join us for an evening celebrating our rich cultural heritage with traditional food, music, and community fellowship.</p>
+                        </div>
+                        <div class="event-card">
+                            <h4>Community Service Day</h4>
+                            <p class="event-date">Sunday, September 29th @ 9 AM</p>
+                            <p>Volunteers needed for our quarterly community outreach program. Help us serve those in need.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section>
-<h2>NEW! EXCLUSIVE OFFERS</h2>
-<p>The DSNY Jade Association is proud to partner with the New York Jets to offer our members discounted tickets through our membership portal! A portion of proceeds from each ticket will directly benefit the charities we support. Catch a game and help out a good cause!</p>
-<div class="buttons"><a href="#">EXCLUSIVE TICKET OFFERS ›</a></div>
+    <!-- Exclusive Offers Section -->
+    <section class="offers">
+        <div class="container">
+            <h3>Member Benefits</h3>
+            <div class="offer-card">
+                <h4>Member Exclusive Discounts</h4>
+                <p>The DSNY Jade Society partners with local businesses to offer our members exclusive discounts and benefits. Check your member portal for current offers!</p>
+                <div class="promo-code">
+                    <span>Promo Code: <strong>DSNYJADE2025</strong></span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<h2>NEW! EXCLUSIVE OFFERS</h2>
-<p>The DSNY Jade Association is proud to partner with the New York Yankees to offer our members discounted tickets through our membership portal! A portion of proceeds from each ticket will directly benefit the charities we support. Catch a game and help out a good cause!</p>
-<p><strong>USE PROMO CODE “DSNYJADE” AT CHECKOUT</strong></p>
-<div class="buttons"><a href="#">GET YOUR TICKETS ›</a></div>
-</section>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h3>About the DSNY Jade Society</h3>
+                <p class="mission-statement">The DSNY Jade Society combines time-honored traditions with cherished family values to uphold standards of integrity, honor, and courtesy in the community, fostering a profound sense of friendly association and brotherhood among members.</p>
+                
+                <div class="values-grid">
+                    <div class="value-item">
+                        <h4>Cultural Heritage</h4>
+                        <p>Celebrating and preserving the rich traditions that make our community strong.</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>Community Service</h4>
+                        <p>Dedicated to serving those in need and making a positive impact in New York City.</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>Brotherhood</h4>
+                        <p>Building lasting bonds and supporting our members through all of life's challenges.</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>Family Values</h4>
+                        <p>Putting family first and creating a welcoming environment for all.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section>
-<h2>ABOUT THE DSNY JADE ASSOCIATION</h2>
-<p>Established in 1936, the Jade Association of the Department of Sanitation, Inc. seamlessly blends time-honored traditions with cherished family values to pursue our central objective.</p>
-<p>This mission drives our organization to uphold standards of integrity, honor, and courtesy in the community, fostering a profound sense of friendly association and brotherhood among members.</p>
-</section>
+    <!-- Membership Section -->
+    <section id="membership" class="membership">
+        <div class="container">
+            <div class="membership-content">
+                <h3>Join the DSNY Jade Society</h3>
+                <p>Become part of a brotherhood dedicated to service, tradition, and community. Membership is open to all active and retired DSNY employees.</p>
+                
+                <div class="membership-benefits">
+                    <h4>Membership Benefits</h4>
+                    <ul>
+                        <li>Exclusive member discounts and offers</li>
+                        <li>Access to society events and celebrations</li>
+                        <li>Community service opportunities</li>
+                        <li>Networking with fellow DSNY professionals</li>
+                        <li>Cultural heritage programs and activities</li>
+                        <li>Family-friendly events throughout the year</li>
+                    </ul>
+                </div>
+                
+                <button class="btn btn--primary btn--lg membership-cta">Apply for Membership</button>
+            </div>
+        </div>
+    </section>
 
-<section>
-<h2>MEMBERSHIP</h2>
-<p>In addition to purchasing a membership in person or online via ESS for city employees, we are now proud to announce that anyone can purchase or renew a membership online through our new membership portal! Click below to get started!</p>
-<div class="buttons"><a href="#">SIGN UP OR RENEW NOW!</a></div>
-</section>
+    <!-- News Section -->
+    <section id="news" class="news">
+        <div class="container">
+            <h3>Latest News & Updates</h3>
+            <div class="news-grid">
+                <article class="news-item">
+                    <h4>New Membership Portal Launch</h4>
+                    <p class="news-date">August 2025</p>
+                    <p>We're excited to announce the launch of our new online membership portal, making it easier than ever to join or renew your membership with the DSNY Jade Society.</p>
+                </article>
+                <article class="news-item">
+                    <h4>Community Outreach Success</h4>
+                    <p class="news-date">July 2025</p>
+                    <p>Thanks to our dedicated members, our recent community service initiative was a tremendous success, helping over 50 families in need.</p>
+                </article>
+            </div>
+        </div>
+    </section>
 
-<section class="gallery">
-<h2>GALLERY</h2>
-<!-- Add your images below -->
-<img src="#" alt="Gallery image 1" />
-<img src="#" alt="Gallery image 2" />
-<img src="#" alt="Gallery image 3" />
-<img src="#" alt="Gallery image 4" />
-</section>
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h3>Society Gallery</h3>
+            <p class="gallery-subtitle">Moments from our events, community service, and brotherhood activities</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>Annual Heritage Celebration</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>Community Service Day</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>Member Meeting</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>Family Picnic</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>Charity Fundraiser</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>Awards Ceremony</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="contact-form">
-<h2>CONTACT US</h2>
-<form action="#" method="post">
-<label>Your Name (required)<input type="text" name="name" required /></label>
-<label>Your Email (required)<input type="email" name="email" required /></label>
-<label>Subject<input type="text" name="subject" /></label>
-<label>Your Message<textarea name="message" rows="4"></textarea></label>
-<button type="submit">Send</button>
-</form>
-</section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h4>Mailing Address</h4>
+                            <p>P.O.Box 130338<br>New York, NY 10013<br>United States</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Email</h4>
+                            <p><a href="mailto:DSNYJadeSociety@gmail.com">DSNYJadeSociety@gmail.com</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Follow Us</h4>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/people/DSNY-Jade-Society/100092542515530/" target="_blank" class="social-link">Facebook</a>
+                                <a href="https://www.instagram.com/dsnyjadesociety/" target="_blank" class="social-link">Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <h4>Send us a Message</h4>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <select id="subject" name="subject" class="form-control" required>
+                                <option value="">Select a subject</option>
+                                <option value="membership">Membership Inquiry</option>
+                                <option value="events">Event Information</option>
+                                <option value="volunteer">Volunteer Opportunities</option>
+                                <option value="general">General Question</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section>
-<h2>INSTAGRAM</h2>
-<p>@dsnyjade DSNY Jade combines family values &amp; tradition to promote a positive image for Italian Americans and help those who cannot help themselves.</p>
-<div class="buttons"><a href="#">Follow on Instagram</a></div>
-</section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>DSNY Jade Society</h4>
+                    <p>Promoting cultural heritage and community service within the Department of Sanitation of New York.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#membership">Membership</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>P.O.Box 130338<br>New York, NY 10013</p>
+                    <p>Email: <a href="mailto:DSNYJadeSociety@gmail.com">DSNYJadeSociety@gmail.com</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/people/DSNY-Jade-Society/100092542515530/" target="_blank" class="social-link">Facebook</a>
+                        <a href="https://www.instagram.com/dsnyjadesociety/" target="_blank" class="social-link">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DSNY Jade Society. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
-<footer>
-<h4>CONNECT WITH THE DSNY JADE ASSOCIATION</h4>
-<p>General Meeting Hall: Kowalinski Post<br />
-61-57 Maspeth Ave, Queens, NY 11378</p>
-<p>Member of the National Council of Jade Associations in Civil Service, Inc.</p>
-<p>
-<a href="#">Facebook</a> |
-<a href="#">Twitter</a> |
-<a href="#">iPhone App</a> |
-<a href="#">Android App</a> |
-<a href="mailto:info@dsnyjade.org">E-Mail</a> |
-<a href="#">Instagram</a>
-</p>
-<p>
-<a href="#">Membership Information</a> |
-<a href="#">9/11 Memorial</a> |
-<a href="#">DSNY Chart Calendar</a>
-</p>
-<p>© 2025 DSNY Jade Society &amp; The National Council of Jade Associations in Civil Service, Inc.</p>
-</footer>
-
+    <script src="app.js"></script>
 </body>
 </html>
